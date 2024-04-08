@@ -1,0 +1,19 @@
+accounts = [
+        {
+            "user": "meine@mail.de",
+            "server": "imap.mailbox.org",
+            "password": "supersicher",
+            "port": 993,
+            "rules": [
+                '(FROM "@domain1.com" SUBJECT "Betreff1")',
+                '(FROM "email@domain2.com" SUBJECT "Betreff2")',
+                '(FROM "email@domain3.com" SUBJECT "Betreff3")',
+                '(FROM "email@domain4.com" SUBJECT "Betreff4")',
+                '(FROM "email@domain5.com" SUBJECT "Betreff5")',
+                '(FROM "email@domain6.com" SUBJECT "Betreff6")',
+                '(FROM "email@domain7.com" SUBJECT "Betreff7")'
+            ]
+        }
+    ]
+
+save_dir = '/var/opt/rechnungen'
